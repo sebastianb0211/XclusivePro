@@ -6,11 +6,12 @@
 .contenido-header{
   width: 100%;
   height: 50px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 80px;
+  
 }
 .carrito{
   width: 100px;
@@ -24,4 +25,95 @@
 a{
   text-decoration: none;
   color: black;
+}
+::selection {
+  background-color: gray;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 400px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, #424242,#212121);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+}
+
+.title {
+  color: #DFAF67;
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+
+.input {
+  margin: 0.5rem 0;
+  padding: 1rem 0.5rem;
+  width: 20rem;
+  background-color: inherit;
+  color: #DFAF67;
+  border: none;
+  outline: none;
+}
+
+.username {
+  border-bottom: 1px solid #DFAF67;
+  transition: all 400ms;
+}
+
+.username:hover {
+  background-color: #424242;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.password {
+  border-bottom: 1px solid #DFAF67;
+  transition: all 400ms;
+}
+
+.password:hover {
+  background-color: #424242;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  height: 3rem;
+  width: 20rem;
+  margin-top: 3rem;
+  background-color: #DFAF67;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.2rem;
+  transition: all 400ms;
+  box-shadow: 0 0 10px  antiquewhite, 0 0 10px antiquewhite;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: antiquewhite;
+  box-shadow: none;
+}
+.inicio-sesion{
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/img/Xclusive.png");
+  background-size:33.33%;;
+  background-repeat: repeat ;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  
+  
+}
+input::placeholder{
+  color: white;
 }

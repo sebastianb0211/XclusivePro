@@ -6,7 +6,7 @@ function Header() {
       <a href="">Perfil</a>
       <div className="carrito">
         <a href="">
-          <img className="imagen-carro" src="src/assets/img/carro-de-la-compra.gif" alt="" />
+          <img className="imagen-carro" src="src/assets/img/logo-carrito.svg" alt="" />
         </a>
       </div>
     </div>

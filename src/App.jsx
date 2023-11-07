@@ -1,10 +1,23 @@
 import Header from "./components/Header"
+import Login from "./components/Login"
 
 function App() {
   
 
   return (
-   <Header></Header>
+    <div>
+      <div>
+      <Header></Header>
+
+      </div>
+      <div className="inicio-sesion">
+        <Login></Login>
+        
+
+      </div>
+
+    </div>
+   
   )
 }
 
