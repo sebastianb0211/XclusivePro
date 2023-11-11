@@ -11,6 +11,8 @@
   justify-content: space-around;
   align-items: center;
   gap: 80px;
+  display: none;
+  
   
 }
 .carrito{
@@ -39,7 +41,16 @@ a{
 
 .form {
   width: 400px;
-  height: 400px;
+  height: 450px;
+  background-image: linear-gradient(to bottom, #424242,#212121);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+}
+.form1{
+  width: 400px;
+  height: 500px;
   background-image: linear-gradient(to bottom, #424242,#212121);
   display: flex;
   align-items: center;
@@ -116,4 +127,22 @@ a{
 }
 input::placeholder{
   color: white;
+}
+.nombreLogin{
+  margin-top: 20px;
+  color: white;
+}
+.nombreLogin:hover{
+text-decoration: underline;
+
+cursor: pointer;
+}
+.error{
+  width: 300px;
+  ;
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color:red;
 }
